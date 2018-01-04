@@ -1,0 +1,34 @@
+\chapter{绪论}
+
+本页是出现bug的情况，两张图片在一个页面连续出现，第二张图里面的文字被加粗：
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{VisioDrawing.eps}\\
+	\caption{系统框图}\label{fig:system1}
+\end{figure}
+
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{VisioDrawing.eps}\\
+	\caption{系统框图}\label{fig:system2}
+\end{figure}
+
+\newpage
+
+如果两张图片中间有任何文字，则不会出现这个bug：
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{VisioDrawing.eps}\\
+	\caption{系统框图}\label{fig:system3}
+\end{figure}
+
+正文
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.8\textwidth]{VisioDrawing.eps}\\
+	\caption{系统框图}\label{fig:system4}
+\end{figure}
